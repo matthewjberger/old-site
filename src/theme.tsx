@@ -11,6 +11,21 @@ const breakpoints = createBreakpoints({
 })
 
 const theme = extendTheme({
+  styles: {
+    global: {
+      hr: {
+        margin: "50px 0",
+      },
+      "ol, ul": {
+        margin: "1rem",
+        marginLeft: "1.5rem",
+      },
+      h3: {
+        fontSize: "50px",
+        fontWeight: "300",
+      },
+    },
+  },
   colors: {
     black: "#16161D",
   },
